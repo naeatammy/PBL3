@@ -1,52 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <title>
-            Setting
-        </title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="SettingPP.css">
-        <style>
-            
-        </style>
-    </header>
-    <body>
-        <div class="menu"> </div>
-        <!-- Menu -->
-        <div class="menulist">
-            <div>
-                <h1 id="WFL" class="menuText">
-                    WFL.com
-                </h1>
-                <h1 id="Browse" , class="menuText">
-                    Browse
-                </h1>
-                <h1 id="pAP" , class="menuText">
-                    Post a project
-                </h1>
+<header>
+    <title>
+        Setting
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="SettingPP.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+        body {
+            font-family: "Inria Sans" , sans-serif;
+            overflow-x: hidden;
+            padding-bottom: 150px;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="menu"> </div>
+    <!-- Menu -->
+    <div class="menulist">
+        <div>
+            <h1 id="WFL" class="menuText" style="font-style: italic;">
+                WFL.com
+            </h1>
+            <h1 id="Browse" , class="menuText">
+                Browse
+            </h1>
+            <h1 id="pAP" , class="menuText">
+                Post a project
+            </h1>
+        </div>
+        <div>
+            <div id="noti" , class="menucpn">
             </div>
-            <div>
-                <div id="noti" , class="menucpn">
-                </div>
-                <div id="folder" , class="menucpn">
-                </div>
-                <div id="profile" , class="menucpn">
-                </div>
-                <div id="profile_name" , class="menucpn">
-                    @username
-                </div>
+            <div id="folder" , class="menucpn">
+            </div>
+            <div id="profile" , class="menucpn">
+            </div>
+            <div id="profile_name" , class="menucpn">
+                @username
             </div>
         </div>
+    </div>
+    <div>
         <div id="profile" , class="tab">
             <strong>Profile</strong>
         </div>
         <div id="password" , class="tab">
             <strong>Password</strong>
         </div>
-        <div id="profile_detail" , class="contents">
-            <h1 id="textprofile_detail" , class="contents">
-                Profile Details
-            </h1>
+        <div id="tab_select" style="background-color: black; width: 4px; height: 30px;"></div>
+    </div>
+    <div id="profile_detail" , class="contents">
+        <h1 id="textprofile_detail" , class="contents">
+            Profile Details
+        </h1>
+        <div>
             <h2 id="Name" , class="contents">
                 Name
             </h2>
@@ -56,6 +66,42 @@
             <h3 id="lastname" , class="contents">
                 LastName
             </h3>
+            <textarea id="text_firstname" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <textarea id="text_lastname" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
         </div>
-    </body>
+        <h1 id="line1" , class="contents"></h1>
+        <div>
+            <h2 id="address" , class="contents">
+                Address
+            </h2>
+            <h3 id="address1" , class="contents">
+                Address
+            </h3>
+            <textarea id="text_address1" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <textarea id="text_address2" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+        </div>
+        <div>
+            <h3 id="city" , class="contents">
+                City/Town
+            </h3>
+            <textarea id="text_city" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+        </div>
+        <div>
+            <h3 id="country" , class="contents">
+                Country
+            </h3>
+            <textarea id="text_country" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+        </div>
+        <div>
+            <h3 id="company" , class="contents">
+                Company
+            </h3>
+            <textarea id="text_company" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+        </div>
+        <button id="save" , class="contents">
+            Save Settings
+        </button>
+    </div>
+</body>
+
 </html>

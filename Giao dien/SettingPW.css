@@ -95,103 +95,68 @@
 #tab_select {
     position: absolute;
     left: 60px;
-    top: 118px;
+    top: 169px;
 }
-#profile_detail.contents {
+#password.contents {
     width: 70vw;
-    height: 120vh;
+    height: 70vh;
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin-left: 250px;
     margin-top: 50px;
 }
-#textprofile_detail.contents {
+#textpassword.contents {
     font-size: 28px;
     padding-left: 33px;
     padding-bottom: 10px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
-#Name.contents {
+#changepw.contents {
     margin-top: 30px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
-#firstname.contents {
+#currentpw.contents {
     position: relative;
-    left: 50px;
+    left: 43px;
     top: 10px;
 }
-#lastname.contents {
+#text_crpw.contents {
+    height: 36px;
+    margin-left: 4%;
     position: relative;
-    left: 540px;
-    top: -30px;
+    top: 10px;
 }
-#text_firstname.contents {
-    height: 36px;
-    margin-left: 4.5%;
+#newpw.contents {
     position: relative;
-    top: -35px;
+    left: 43px;
+    top: 10px;
 }
-#text_lastname.contents {
+#text_npw.contents {
     height: 36px;
-    margin-left: 12%;
+    margin-left: 4%;
     position: relative;
-    top: -35px;
+    top: 10px;
 }
-#line1.contents {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+#confirmpw.contents {
+    position: relative;
+    left: 43px;
+    top: 10px;
 }
-#address.contents {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-#address1.contents {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-#text_address1.contents {
+#text_cpw.contents {
     height: 36px;
-    margin-left: 50px;
-}
-#text_address2.contents {
-    height: 36px;
-    margin-top: 10px;
-    margin-left: 50px;
-}
-#city.contents {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-#text_city.contents {
-    height: 36px;
-    margin-left: 50px;
-}
-#country.contents {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-#text_country.contents {
-    height: 36px;
-    margin-left: 50px;
-}
-#company.contents {
-    margin-top: 30px;
-    margin-left: 50px;
-}
-#text_company.contents {
-    height: 36px;
-    margin-left: 50px;
+    margin-left: 4%;
+    position: relative;
+    top: 10px;
 }
 #save.contents {
     width: 15%;
-    height: 4%;
+    height: 8%;
     background-color: black;
     color: white;
     font-family: 'Inria Sans';
     font-size: 18px;
     border-radius: 5px;
-    margin-left: 41%;
-    margin-top: 50px;
-}
-body {
-    margin: 0px;
+    position: relative;
+    top: 8%;
+    left: 42%;
 }

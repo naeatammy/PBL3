@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Setting</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="SettingPW.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+        body {
+            font-family: "Inria Sans" , sans-serif;
+            margin: 0px;
+            overflow-x: hidden;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="menu"> </div>
+    <!-- Menu -->
+    <div class="menulist">
+        <div>
+            <h1 id="WFL" class="menuText" style="font-style: italic;">
+                WFL.com
+            </h1>
+            <h1 id="Browse" , class="menuText">
+                Browse
+            </h1>
+            <h1 id="pAP" , class="menuText">
+                Post a project
+            </h1>
+        </div>
+        <div>
+            <div id="noti" , class="menucpn">
+            </div>
+            <div id="folder" , class="menucpn">
+            </div>
+            <div id="profile" , class="menucpn">
+            </div>
+            <div id="profile_name" , class="menucpn">
+                @username
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="profile" , class="tab">
+            <strong>Profile</strong>
+        </div>
+        <div id="password" , class="tab">
+            <strong>Password</strong>
+        </div>
+        <div id="tab_select" style="background-color: black; width: 4px; height: 30px;"></div>
+    </div>
+    <div id="password" class="contents">
+        <h1 id="textpassword" , class="contents">
+            Password
+        </h1>
+        <div>
+            <h2 id="changepw" , class="contents">
+                Change Password
+            </h2>
+            <h3 id="currentpw", class="contents">
+                Current Password
+            </h3>
+            <textarea id="text_crpw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <h3 id="newpw", class="contents">
+                New Password
+            </h3>
+            <textarea id="text_npw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <h3 id="confirmpw", class="contents">
+                Confirm Password
+            </h3>
+            <textarea id="text_cpw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+        </div>
+        <button id="save" , class="contents">
+            Save Settings
+        </button>
+    </div>
+    </body>
+</html>

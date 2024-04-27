@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BrowseFreelancer</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="BrowseFreelancer.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+        body {
+            font-family: "Inria Sans", sans-serif;
+            overflow-x: hidden;
+            margin: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu"> </div>
+    <div class="menulist">
+        <div>
+            <h1 id="WFL" class="menuText" style="font-style: italic;">
+                WFL.com
+            </h1>
+            <h1 id="Browse" , class="menuText">
+                Browse
+            </h1>
+            <h1 id="pAP" , class="menuText">
+                Post a project
+            </h1>
+        </div>
+        <div>
+            <div id="noti" , class="menucpn">
+            </div>
+            <div id="folder" , class="menucpn">
+            </div>
+            <div id="profile" , class="menucpn">
+            </div>
+            <div id="profile_name" , class="menucpn">
+                @username
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; margin-top: 10px;">
+        <h1 id="browse">Browse</h1>
+        <textarea id="browsetextbox" cols="30" rows="1"
+            style="font-size: 20px; width: 50%; height: 35px; border-radius: 20px; border: 2px solid rgba(0,0,0,0.3);"></textarea>
+        <Button id="search">Search</Button>
+    </div>
+    <div style="display: flex;">
+        <h3 id="freelancer" style="font-size: 23px;">Freelancer</h3>
+        <h3 id="project" style="font-size: 23px;">Project</h3>
+    </div>
+    <div style="display: flex;">
+        <div id="filterbox">
+            <h1 id="filtertext" style="font-size: 25px;">Filters</h1>
+            <h1 id="skills" style="font-size: 20px;">Skills</h1>
+            <textarea id="skilltextbox" cols="23" rows="1"
+                style="font-size: 20px; width: 75%; height: 35px; border-radius: 20px; border: 2px solid rgba(0,0,0,0.3);"></textarea>
+            <div id="checkbox1" , style="display: flex;">
+                <input type="checkbox" style="width: 20px; height: 20px;">
+                <div id="wd" style="font-size: 18px;">Website Design</div>
+            </div>
+            <div id="checkbox2" , style="display: flex;">
+                <input type="checkbox" style="width: 20px; height: 20px;">
+                <div id="ld" style="font-size: 18px;">Logo Design</div>
+            </div>
+            <div id="checkbox3" , style="display: flex;">
+                <input type="checkbox" style="width: 20px; height: 20px;">
+                <div id="de" style="font-size: 18px;">Data Entry</div>
+            </div>
+            <div id="checkbox4" , style="display: flex;">
+                <input type="checkbox" style="width: 20px; height: 20px;">
+                <div id="mad" style="font-size: 18px;">Mobile App Development</div>
+            </div>
+            <h1 id="country" style="font-size: 20px;">Country</h1>
+            <textarea id="countrytextbox" cols="23" rows="1"
+                style="font-size: 20px; width: 75%; height: 35px; border-radius: 20px; border: 2px solid rgba(0,0,0,0.3);"></textarea>
+            <div style="display: flex; margin-left: 50px;">
+                <h2 id="textrating" style="font-size: 20px;">Rating</h2>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+            </div>
+        </div>
+        <div id="topresultbox">
+            <h1 id="topresulttext" style="font-size: 25px;">Top Results</h1>
+        </div>
+    </div>
+</body>
+
+</html>
