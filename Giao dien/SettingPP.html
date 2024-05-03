@@ -5,7 +5,7 @@
         Setting
     </title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="SettingPP.css">
+    <link rel="stylesheet" href="style/SettingPP.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         body {
@@ -14,6 +14,7 @@
             padding-bottom: 150px;
         }
     </style>
+    
 </header>
 
 <body>
@@ -27,16 +28,19 @@
             <h1 id="Browse" , class="menuText">
                 Browse
             </h1>
-            <h1 id="pAP" , class="menuText">
+            <h1 id="pAP" , class="menuText", style="cursor: pointer;">
                 Post a project
             </h1>
         </div>
         <div>
-            <div id="noti" , class="menucpn">
+            <div>
+                <img src="images/noti.png" id="noti">
             </div>
-            <div id="folder" , class="menucpn">
+            <div>
+                <img src="images/folder.png" id="folder">
             </div>
-            <div id="profile" , class="menucpn">
+            <div>
+                <img src="images/ava.png" id="profile">
             </div>
             <div id="profile_name" , class="menucpn">
                 @username
@@ -44,7 +48,7 @@
         </div>
     </div>
     <div>
-        <div id="profile" , class="tab">
+        <div id="profile_tab" , class="tab">
             <strong>Profile</strong>
         </div>
         <div id="password" , class="tab">
@@ -66,8 +70,8 @@
             <h3 id="lastname" , class="contents">
                 LastName
             </h3>
-            <textarea id="text_firstname" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
-            <textarea id="text_lastname" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="text", id="text_firstname", class="contents", style="font-size: 20px; border-radius: 5px;">
+            <input type="text", id="text_lastname", class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
         <h1 id="line1" , class="contents"></h1>
         <div>
@@ -77,31 +81,32 @@
             <h3 id="address1" , class="contents">
                 Address
             </h3>
-            <textarea id="text_address1" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
-            <textarea id="text_address2" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="text", id="text_address1", class="contents", style="font-size: 20px; border-radius: 5px;">
+            <input type="text", id="text_address2", class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
         <div>
             <h3 id="city" , class="contents">
                 City/Town
             </h3>
-            <textarea id="text_city" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="text", id="text_city", class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
         <div>
             <h3 id="country" , class="contents">
                 Country
             </h3>
-            <textarea id="text_country" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="text", id="text_country", class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
         <div>
             <h3 id="company" , class="contents">
                 Company
             </h3>
-            <textarea id="text_company" class="contents" cols="85%" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="text", id="text_company", class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
         <button id="save" , class="contents">
             Save Settings
         </button>
     </div>
+    <script src="script/SettingPP.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/MyHires.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+        body {
+            font-family: "Inria Sans", sans-serif;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu"> </div>
+    <div class="menulist">
+        <div>
+            <h1 id="WFL" class="menuText" style="font-style: italic;">
+                WFL.com
+            </h1>
+            <h1 id="Browse" , class="menuText">
+                Browse
+            </h1>
+            <h1 id="pAP" , class="menuText" , style="cursor: pointer;">
+                Post a project
+            </h1>
+        </div>
+        <div>
+            <div>
+                <img src="images/noti.png" id="noti">
+            </div>
+            <div>
+                <img src="images/folder.png" id="folder">
+            </div>
+            <div>
+                <img src="images/ava.png" id="profile">
+            </div>
+            <div id="profile_name_box">
+                <div id="profile_name" , class="menucpn">
+                    @username
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="blackmenu">
+            <h1 class="listtag">List</h1>
+            <h1 class="myprojecttag">My Projects</h1>
+            <h1 class="feedbacktag">Feedback</h1>
+        </div>
+        <div class="content">
+            <div class="leftcontent">
+                <div class="Tag1">List</div>
+                <div class="Tag2">Users</div>
+                <div class="listitem">
+
+                    <div class="favoritetag">
+                        <i class='bx bx-heart'></i>
+                        <h1 class="favorite">Favourite</h1>
+                    </div>
+                    <div class="myhirestag">
+                        <i class='bx bxs-briefcase'></i>
+                        <h1 class="myhires">My Hires</h1>
+                    </div>
+                    <div class="recentlyviewedtag">
+                        <img src="images/eyeicon.png" class="eyeicon">
+                        <h1 class="recentlyviewed">Recently Viewed</h1>
+                    </div>
+                    <div class="bookmarkstag ">
+                        <i class='bx bxs-bookmark-star'></i>
+                        <h1 class="bookmarks">Bookmarks</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="rightcontent">
+                <div class="Tag1">My Hires
+                    <p id="tag1_text">Here you can find all the freelancers you've work in the past</p>
+                </div>
+                <div>
+                    <h1 id="text1"> This list is empty </h1>
+                </div>
+                <div>
+                    <p class="text">Add freelancers or projects to your list for the most convenient wait to access them later</p>
+                </div>
+                <div id="button">
+                    <Button id="bf" class="btn">Browse Freelancers</Button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script/MyHires.js"></script>
+</body>
+</html>

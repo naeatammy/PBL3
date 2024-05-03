@@ -1,0 +1,208 @@
+.menu {
+    display: flex;
+    background-color: #fff;
+    width: 100vw;
+    height: 6vh;
+    color: black;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: black;
+}
+
+.menuText {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+#WFL.menuText {
+    position: absolute;
+    bottom: auto;
+    top: -3px;
+    left: 15px;
+}
+
+#Browse.menuText {
+    font-size: 20px;
+    position: absolute;
+    bottom: auto;
+    top: 5px;
+    left: 150px;
+}
+
+#pAP.menuText {
+    font-size: 20px;
+    position: absolute;
+    bottom: auto;
+    top: 5px;
+    left: 240px;
+}
+
+#noti {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    left: 1215px;
+    cursor: pointer;
+}
+
+.menucpn {
+    margin-left: 120px;
+}
+
+#folder {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 9px;
+    left: 1270px;
+    cursor: pointer;
+}
+
+#profile {
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    top: 9px;
+    left: 1320px;
+    cursor: pointer;
+}
+
+#profile_name.menucpn {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 1240px;
+    cursor: pointer;
+}
+#profile_tab.tab {
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    top: 120px;
+}
+#password.tab {
+    font-size: 20px;
+    position: absolute;
+    left: 80px;
+    top: 170px;
+    cursor: pointer;
+}
+#tab_select {
+    position: absolute;
+    left: 60px;
+    top: 118px;
+}
+#profile_detail.contents {
+    width: 70vw;
+    height: 120vh;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+#textprofile_detail.contents {
+    font-size: 28px;
+    padding-left: 33px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+#Name.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#firstname.contents {
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+#lastname.contents {
+    position: relative;
+    left: 540px;
+    top: -30px;
+}
+#text_firstname.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 36px;
+    margin-left: 4.5%;
+    position: relative;
+    top: -35px;
+}
+#text_lastname.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 36px;
+    margin-left: 16.5%;
+    position: relative;
+    top: -35px;
+}
+#line1.contents {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+}
+#address.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#address1.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#text_address1.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 36px;
+    margin-left: 50px;
+}
+#text_address2.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 36px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#city.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#text_city.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 36px;
+    margin-left: 50px;
+}
+#country.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#text_country.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 90%;;
+    height: 36px;
+    margin-left: 50px;
+}
+#company.contents {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+#text_company.contents {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    width: 90%;
+    height: 36px;
+    margin-left: 50px;
+}
+#save.contents {
+    width: 15%;
+    height: 4%;
+    background-color: black;
+    color: white;
+    font-family: 'Inria Sans';
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 41%;
+    margin-top: 50px;
+    cursor: pointer;
+}
+body {
+    margin: 0px;
+}

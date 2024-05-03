@@ -3,7 +3,7 @@
     <head>
         <title>Setting</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="SettingPW.css">
+        <link rel="stylesheet" href="style/SettingPW.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
         body {
@@ -24,16 +24,19 @@
             <h1 id="Browse" , class="menuText">
                 Browse
             </h1>
-            <h1 id="pAP" , class="menuText">
+            <h1 id="pAP" , class="menuText", style="cursor: pointer;">
                 Post a project
             </h1>
         </div>
         <div>
-            <div id="noti" , class="menucpn">
+            <div>
+                <img src="images/noti.png" id="noti">
             </div>
-            <div id="folder" , class="menucpn">
+            <div>
+                <img src="images/folder.png" id="folder">
             </div>
-            <div id="profile" , class="menucpn">
+            <div>
+                <img src="images/ava.png" id="profile">
             </div>
             <div id="profile_name" , class="menucpn">
                 @username
@@ -41,7 +44,7 @@
         </div>
     </div>
     <div>
-        <div id="profile" , class="tab">
+        <div id="profile_tab" , class="tab">
             <strong>Profile</strong>
         </div>
         <div id="password" , class="tab">
@@ -60,19 +63,22 @@
             <h3 id="currentpw", class="contents">
                 Current Password
             </h3>
-            <textarea id="text_crpw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="password", id="text_crpw" class="contents", style="font-size: 20px; border-radius: 5px;">
+            <h6 id="checktext1" style="color: red;"></h6>
             <h3 id="newpw", class="contents">
                 New Password
             </h3>
-            <textarea id="text_npw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="password", id="text_npw" class="contents", style="font-size: 20px; border-radius: 5px;">
             <h3 id="confirmpw", class="contents">
                 Confirm Password
             </h3>
-            <textarea id="text_cpw" class="contents" cols="30" rows="1" style="font-size: 20px; border-radius: 5px;"></textarea>
+            <input type="password", id="text_cpw" class="contents", style="font-size: 20px; border-radius: 5px;">
         </div>
+        <h6 id="checktext2" style="color: red;"></h6>
         <button id="save" , class="contents">
             Save Settings
         </button>
     </div>
+    <script src="script/SettingPW.js"></script>
     </body>
 </html>
