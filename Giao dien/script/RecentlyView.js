@@ -13,6 +13,9 @@ projecttag.onmouseover = function() {
 projecttag.onmouseout = function() {
     projecttag.setAttribute("style", "background-color: black; border-bottom: none");
 }
+projecttag.onclick = function() {
+    window.location.href = "MyProjectFL_CW.html";
+}
 
 var fbtag = document.querySelector('.feedbacktag');
 fbtag.onmouseover = function() {
@@ -20,6 +23,9 @@ fbtag.onmouseover = function() {
 }
 fbtag.onmouseout = function() {
     fbtag.setAttribute("style", "background-color: black; border-bottom: none");
+}
+fbtag.onclick = function() {
+    window.location.href = "Feedback.html";
 }
 
 var username = document.querySelector('#profile_name');

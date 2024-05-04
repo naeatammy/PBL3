@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style/MyProjectFL_PW.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+        body {
+            font-family: "Inria Sans", sans-serif;
+            overflow-x: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="menu"> </div>
+    <div class="menulist">
+        <div>
+            <h1 id="WFL" class="menuText" style="font-style: italic;">
+                WFL.com
+            </h1>
+            <h1 id="Browse" , class="menuText">
+                Browse
+            </h1>
+            <h1 id="pAP" , class="menuText" , style="cursor: pointer;">
+                Post a project
+            </h1>
+        </div>
+        <div>
+            <div>
+                <img src="images/noti.png" id="noti">
+            </div>
+            <div>
+                <img src="images/folder.png" id="folder">
+            </div>
+            <div>
+                <img src="images/ava.png" id="profile">
+            </div>
+            <div id="profile_name_box">
+                <div id="profile_name" , class="menucpn">
+                    @username
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <div class="blackmenu">
+            <h1 class="listtag">List</h1>
+            <h1 class="myprojecttag">My Projects</h1>
+            <h1 class="feedbacktag">Feedback</h1>
+        </div>
+        <div style="display: flex;">
+            <h1 id="cw">
+                <strong id="cw_text">Current Work</strong>
+            </h1>
+            <h1 id="pw">
+                <strong id="pw_text">Past Work</strong>
+            </h1>
+            <button id="client">
+                <strong>As Client</strong>
+            </button>
+            <button id="freelancer">
+                <strong>As Freelancer</strong>
+            </button>
+        </div>
+        <div id="div-content" style="display: flex; margin-left: 50px;">
+            <div id="search_box">
+                <i class='bx bx-search-alt-2' style="margin-left: 17px;"></i>
+                <input id="search" type="text" placeholder="Searchs Projects And Users">
+            </div>
+            <div id="show_box" , style="display: flex;">
+                <h1 id="show_text" , style="font-size: 20px;">Show:</h1>
+            </div>
+            <select id="show_op">
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <div id="view_box" , style="display: flex;">
+                <h1 id="view_text" , style="font-size: 20px;">View:</h1>
+            </div>
+            <select id="view_op">
+                <option value="all">All</option>
+                <option value="recruiter">Recruiter</option>
+            </select>
+        </div>
+        <div id="display">
+            <h1 id="display_null" style="font-size: 20px; text-align: center;
+            margin-top: 15%;">Your past works are displayed here</h1>
+        </div>
+    </div>
+    <script src="script/MyProjectFL_PW.js"></script>
+</body>
+
+</html>
